@@ -1,10 +1,12 @@
 import './App.css';
+import ContactUs from './components/ContactUs';
 import Hero from './components/Hero';
 
 const App = () => {
   return (
     <div className = "App">
       <Hero />
+      <ContactUs />
     </div>
   );
 }
